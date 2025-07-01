@@ -1,0 +1,25 @@
+models:
+  chatgpt-4o:
+    additional_params: {}
+    max_tokens: 500
+    model_id: gpt-4o
+    provider: openai
+    temperature: 0.1
+  chatgpt-4o-mini:
+    additional_params: {}
+    max_tokens: 500
+    model_id: gpt-4o-mini
+    provider: openai
+    temperature: 0.1
+  claude-haiku:
+    additional_params: {}
+    max_tokens: 500
+    model_id: claude-3-haiku-20240307
+    provider: anthropic
+    temperature: 0.1
+  claude-sonnet-4:
+    additional_params: {}
+    max_tokens: 500
+    model_id: claude-sonnet-4-20250514
+    provider: anthropic
+    temperature: 0.1

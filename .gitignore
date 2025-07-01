@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Research data - NEVER commit experimental data
+data/
+experiments/
+models/
+checkpoints/
+logs/
+results/
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+
+# API Keys and sensitive configuration
+.env
+config/api.yaml
+
+# Personal analysis and notes
+analysis-notes.md
+personal-*.md
+backup-*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
