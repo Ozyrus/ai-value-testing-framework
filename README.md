@@ -212,9 +212,9 @@ python main.py --temperature 1.0 --runs 5
 
 #### Advanced Configuration
 Edit configuration files:
-- `config/experiment.yaml`: Experiment settings
 - `config/api.yaml`: API configurations  
 - `config/models.yaml`: Model definitions
+- `config/values.yaml`: Value definitions
 
 ## 🛠️ Troubleshooting
 

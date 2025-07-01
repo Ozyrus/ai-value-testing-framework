@@ -73,7 +73,6 @@ async def main():
     # Load configuration
     print("📁 Loading configuration...")
     try:
-        experiment_config = config_mgr.load_experiment_config()
         api_config = config_mgr.load_api_config()
         value_registry = ValueRegistry(INITIAL_VALUES)
         print("✅ Configuration loaded")
