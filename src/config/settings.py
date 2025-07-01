@@ -102,8 +102,7 @@ class ConfigurationManager:
                 name=v_data["name"],
                 category=ValueCategory(v_data["category"]),
                 positive_statement=v_data["positive_statement"],
-                negative_statement=v_data["negative_statement"],
-                expected_baseline_resistance=v_data["expected_baseline_resistance"]
+                negative_statement=v_data["negative_statement"]
             ))
         
         return ValueRegistry(values)
